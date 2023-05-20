@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+#navbar .leftnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+  
+#navbar .rightnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.table_content {
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_content {
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
